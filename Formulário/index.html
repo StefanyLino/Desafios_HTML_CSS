@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+<form action="pagina.html">
+        <h1 style="background-color:rgb(187, 143, 128);">FORMULÁRIO DE INTERAÇÃO</h1>
+        <p>Digite seu nome: <input type="text" name="Nome" placeholder="Digite aqui" required></p>
+        <p>Digite o seu endereço: <input type="text" name="Rua e Número" value="Rua e Número"></p>
+        <p>Digite o Bairro: <input type="text" name="Bairro" value="Bairro"></p>
+        <p>Digite a Cidade: <input type="text" name="Cidade" value="Cidade"></p>
+        <label for="data">Selecione sua data de nascimento:</label>
+        <input type="date" id="birthday" name="birthday">
+        <p>Entre com a sua mensagem</p>
+        <textarea maxlength="500" placeholder="Digite até 500 caracteres."></textarea>    
+        <p>Escolha o(s) modelo(s) de trabalho:</p>
+        <ul>
+            <li><input type="checkbox" name="Presencial">Presencial</li>
+            <li><input type="checkbox" name="Remoto">Remoto</li>
+            <li><input type="checkbox" name="Híbrido">Híbrido</li>
+        </ul>
+        <p>Escolha o período de trabalho:</p>
+        <ul>
+            <li><input type="radio">Manhã</li>
+            <li><input type="radio">Tarde</li>
+            <li><input type="radio">Noite</li>
+        </ul>
+        <p>Escolha um Estado:</p>
+        <label for="estados"></label>
+        <select name="estado" id="">estado
+            <optgroup>
+                <option value="São Paulo">São Paulo</option>
+                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                <option value="Minas Gerais">Minas Gerais</option>
+                <option value="Espírito Santo">Espírito Santo</option>
+                </optgroup>
+        </select> 
+        <p><input type="checkbox" name="termos">Aceita os <a href="">termos de uso</a> do site</p>
+        <input type="submit" value="Enviar dados"></a>
+        <input type="reset" value="Limpar os campos"</a>
+    </form>
+</body>
+</html>
