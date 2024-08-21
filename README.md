@@ -1,6 +1,6 @@
 # Desafios HTML e CSS ⋆｡°✩
 
-*Desafios desenvolvidos a partir do HTML e com a junçãodo CSS*
+*Desafios desenvolvidos a partir do HTML e com a junção do CSS*
 
 PROJETOS:
 - Desafio criação de tabela
