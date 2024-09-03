@@ -4,6 +4,7 @@
 
 PROJETOS:
 - Desafio criação de tabela
-- Desafio criação de formulário 
+- Desafio criação de formulário
+- Desafio SENAI
 
  
